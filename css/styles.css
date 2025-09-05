@@ -2076,45 +2076,6 @@ header .menu_item > a.active
 }
 
 
-.reviews .review.view2 .desc:before
-{
-    position: absolute;
-    top: -32px;
-    left: 0;
-
-    display: block;
-
-    font-size: 92px;
-    font-weight: 700;
-    line-height: 1;
-
-    content: '“';
-    z-index: -1;
-    pointer-events: none;
-
-    color: #eef0f4;
-}
-
-
-.reviews .review.view2 .desc:after
-{
-    position: absolute;
-    right: 6px;
-    bottom: -77px;
-
-    display: block;
-
-    font-size: 92px;
-    font-weight: 700;
-
-    content: '”';
-    z-index: -1;
-    pointer-events: none;
-
-    color: #eef0f4;
-}
-
-
 
 /*---------------
     Education
@@ -3869,7 +3830,7 @@ header .menu_item > a.active
     padding-block: 31px 18px;
     padding-inline: 469px 9px;
 
-    background: url(../images/bg_why_we_item3.svg) 0 0/100% 100% no-repeat;
+    background: url(../images/bg_why_we_item3.svg) 0 100%/cover no-repeat;
 }
 
 
@@ -3918,7 +3879,7 @@ header .menu_item > a.active
     padding-block: 197px 54px;
     padding-inline: 33px 477px;
 
-    background: url(../images/bg_why_we_item5.svg) 0 0/100% 100% no-repeat;
+    background: url(../images/bg_why_we_item5.svg) 0 0/cover no-repeat;
 }
 
 

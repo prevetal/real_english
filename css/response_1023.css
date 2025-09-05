@@ -421,23 +421,6 @@
     }
 
 
-    .reviews .review.view2 .desc:before
-    {
-        top: -24px;
-
-        font-size: 80px;
-    }
-
-
-    .reviews .review.view2 .desc:after
-    {
-        right: 0;
-        bottom: -68px;
-
-        font-size: 80px;
-    }
-
-
 
     /*---------------
         Education

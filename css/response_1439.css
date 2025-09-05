@@ -1133,14 +1133,14 @@
 
     .about_author .photo
     {
-        width: 400px;
+        width: 372px;
         margin-right: 0;
     }
 
 
     .about_author .data
     {
-        width: calc(100% - 424px);
+        width: calc(100% - 396px);
 
         gap: var(--cont_padding);
     }
