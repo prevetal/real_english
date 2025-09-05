@@ -1,0 +1,723 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --custom_scroll_width: 5px;
+        --custom_scroll_height: 5px;
+        --font_size: 14px;
+        --font_size_big: 16px;
+        --font_size_title_small: 16px;
+        --font_size_title: 22px;
+        --font_size_title_big: 28px;
+        --block_head_offset: 40px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp
+    {
+        top: 182px;
+
+        margin-right: -488px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding-inline: var(--cont_padding);
+    }
+
+
+    .accordion_item .head .title
+    {
+        width: calc(100% - 48px);
+
+        font-size: var(--font_size_title);
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 24px;
+        height: 14px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding-inline: var(--cont_padding);
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        display: none;
+        flex-direction: column;
+
+        padding-block: 68px var(--cont_padding);
+        padding-inline: var(--cont_padding);
+
+        z-index: 9;
+
+        border-radius: var(--border_radius);
+        background: var(--white_color);
+
+        gap: var(--cont_padding_half);
+    }
+
+
+    header .menu.show
+    {
+        display: flex;
+    }
+
+
+    header .menu_item
+    {
+        width: 100%;
+    }
+
+
+    header .menu_item > a
+    {
+        display: block;
+
+        padding: 0;
+
+        font-size: var(--font_size);
+
+        text-align: right;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-bottom: var(--cont_padding);
+    }
+
+
+    .first_section .data
+    {
+        width: 556px;
+    }
+
+
+    .first_section .form
+    {
+        width: 460px;
+        margin-top: var(--cont_padding);
+        padding-inline: var(--cont_padding);
+    }
+
+
+    .first_section .form .input
+    {
+        height: 52px;
+    }
+
+
+    .first_section .form .submit
+    {
+        right: -72px;
+        bottom: -32px;
+    }
+
+
+    .first_section .form .submit_btn
+    {
+        width: 100px;
+        height: 100px;
+
+        font-size: calc(var(--font_size_big) + 2px);
+    }
+
+
+    .first_section .image
+    {
+        width: 480px;
+    }
+
+
+
+    /*---------------------
+        Free diagnostic
+    ---------------------*/
+    .free_diagnostic .data
+    {
+        padding-inline: var(--cont_padding_double) 368px;
+    }
+
+
+    .free_diagnostic .image
+    {
+        right: var(--cont_padding_double);
+
+        width: 280px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we_block
+    {
+        margin-bottom: var(--cont_padding_double);
+    }
+
+
+    .why_we .grid
+    {
+        height: 1089px;
+    }
+
+
+    .why_we .item .items
+    {
+        gap: var(--cont_padding_half);
+    }
+
+
+    .why_we .item .quote:before
+    {
+        top: -48px;
+
+        font-size: 88px;
+    }
+
+
+    .why_we .item .quote:after
+    {
+        bottom: -76px;
+
+        font-size: 88px;
+    }
+
+
+    .why_we .item .items .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .why_we .item .items span
+    {
+        width: calc(100% - 32px);
+    }
+
+
+    .why_we .item .author .photo
+    {
+        width: 440px;
+        margin-bottom: -36px;
+    }
+
+
+    .why_we .item .author .info
+    {
+        bottom: var(--cont_padding);
+
+        width: 300px;
+
+        font-size: var(--font_size);
+    }
+
+
+
+    .why_we .item1
+    {
+        width: 348px;
+        height: 435px;
+        padding-block: 140px var(--cont_padding);
+    }
+
+
+    .why_we .item1 .image
+    {
+        top: -56px;
+
+        width: 188px;
+    }
+
+
+
+    .why_we .item2
+    {
+        width: calc(100% - 372px);
+        height: 228px;
+        padding-inline: var(--cont_padding) 160px;
+    }
+
+
+    .why_we .item2 .image
+    {
+        top: 0;
+
+        width: 160px;
+    }
+
+
+
+    .why_we .item3
+    {
+        top: 252px;
+
+        width: calc(100% - 372px);
+        height: 304px;
+        padding-inline: 326px var(--cont_padding);
+    }
+
+
+    .why_we .item3 .desc
+    {
+        font-size: calc(var(--font_size) - 2px);
+    }
+
+
+    .why_we .item3 .image
+    {
+        top: var(--cont_padding_half);
+
+        width: 200px;
+    }
+
+
+
+    .why_we .item4
+    {
+        top: 459px;
+
+        width: 650px;
+        height: 228px;
+        padding-inline: var(--cont_padding) 220px;
+    }
+
+
+    .why_we .item4 .image
+    {
+        width: 200px;
+    }
+
+
+
+    .why_we .item5
+    {
+        height: 492px;
+        padding-block: 148px var(--cont_padding_double);
+        padding-inline: var(--cont_padding) 380px;
+    }
+
+
+
+    /*--------------
+        Contacts
+    --------------*/
+    .contacts_page
+    {
+        padding-block-start: var(--cont_padding);
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .desc
+    {
+        width: 500px;
+    }
+
+
+    .order_block .form.compressed .columns
+    {
+        width: calc(100% - 240px);
+
+        --form_columns_offset: var(--cont_padding_half);
+    }
+
+
+    .order_block .form.compressed .submit
+    {
+        width: 240px;
+    }
+
+
+    .order_block .bg
+    {
+        top: -124px;
+        left: 0;
+    }
+
+
+    .order_block .bg img
+    {
+        width: 260px;
+        height: 277px;
+    }
+
+
+    .order_block .bg2
+    {
+        top: -80px;
+        right: var(--cont_padding_half);
+    }
+
+
+    .order_block .bg2 img
+    {
+        width: 224px;
+        height: 213px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ_page
+    {
+        padding-block-start: var(--cont_padding);
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews_page
+    {
+        padding-block-start: var(--cont_padding);
+    }
+
+
+    .reviews .review .photo + *
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .reviews .video_review .thumb .icon
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+    /*---------------
+        Education
+    ---------------*/
+    .education .data .item
+    {
+        min-height: 420px;
+
+        background-size: 240px auto, 300px auto;
+    }
+
+
+    .education .data .item .thumb
+    {
+        width: 65%;
+        height: 240px;
+    }
+
+
+
+    .education .steps
+    {
+        padding-block: var(--cont_padding_double);
+    }
+
+
+    .education .steps .data
+    {
+        padding-block: var(--cont_padding_double);
+        padding-inline: var(--cont_padding_double);
+    }
+
+
+    .education .steps .items
+    {
+        width: 560px;
+    }
+
+
+    .education .steps .number
+    {
+        width: 40px;
+
+        font-size: 52px;
+        line-height: 48px;
+    }
+
+
+    .education .steps .number + *
+    {
+        width: calc(100% - 56px);
+    }
+
+
+    .education .steps .image
+    {
+        right: 0;
+
+        width: 400px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .event
+    {
+        min-height: 532px;
+    }
+
+
+    .events .event .data
+    {
+        width: 530px;
+
+        gap: 4px;
+    }
+
+
+    .events .event .pre_title
+    {
+        font-size: calc(var(--font_size_title) - 4px);
+    }
+
+
+    .events .event .title
+    {
+        font-size: 44px;
+    }
+
+
+    .events .event .date .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .events .event .date span
+    {
+        width: calc(100% - 36px);
+    }
+
+
+    .events .event .speaker
+    {
+        width: 452px;
+    }
+
+
+    .events .event .speaker
+    {
+        padding-right: var(--cont_padding);
+        padding-bottom: var(--cont_padding);
+    }
+
+
+    .events .event .speaker .info
+    {
+        padding-inline: var(--cont_padding);
+
+        gap: 8px;
+    }
+
+
+    .events .event .speaker .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    .events .form
+    {
+        width: 400px;
+    }
+
+
+    .events .form .agree
+    {
+        margin-top: var(--cont_padding_half);
+    }
+
+
+
+    /*----------------------
+        Students results
+    ----------------------*/
+    .students_results .row > *
+    {
+        width: calc(50% - var(--cont_padding));
+    }
+
+
+    .students_results .item .name
+    {
+        font-size: var(--font_size_title);
+    }
+
+
+    .students_results .btn
+    {
+        width: 280px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data
+    {
+        width: calc(100% - 384px);
+        height: 320px;
+    }
+
+
+    .about_info .btn
+    {
+        right: 20px;
+
+        height: 52px;
+        padding-inline: 38px;
+    }
+
+
+    .about_info .image
+    {
+        width: 360px;
+    }
+
+
+
+    /*------------------
+        Change lives
+    ------------------*/
+    .change_lives .grid
+    {
+        grid-template-columns: 1fr 300px auto;
+    }
+
+
+    .change_lives .item .desc
+    {
+        font-size: var(--font_size_big);
+    }
+
+
+
+    .change_lives .item1
+    {
+        padding-inline: 248px var(--cont_padding);
+    }
+
+
+    .change_lives .item1 .thumb
+    {
+        top: -48px;
+        left: -8px;
+
+        width: 240px;
+    }
+
+
+
+    .change_lives .item2 .thumb
+    {
+        top: -128px;
+        right: 0;
+
+        width: 248px;
+    }
+
+
+
+    .change_lives .item3
+    {
+        padding-block: var(--cont_padding);
+        padding-inline: var(--cont_padding) 280px;
+    }
+
+
+    .change_lives .item3 .thumb
+    {
+        width: 272px;
+    }
+
+
+
+    /*------------------
+        About author
+    ------------------*/
+    .about_author .data .name
+    {
+        font-size: 40px;
+    }
+
+
+    .about_author .data .slogan
+    {
+        padding-block: 32px;
+        padding-inline: 40px;
+    }
+
+
+
+    .about_author .bottom
+    {
+        margin-top: var(--cont_padding);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont
+    {
+        max-width: 1024px;
+    }
+
+
+    footer .requisites
+    {
+        margin-left: 96px;
+    }
+}
